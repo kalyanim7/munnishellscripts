@@ -1,5 +1,5 @@
 #!/bin/sh
-# check the value greater than zero then print positive
+# check the value is greater than zero then print positive
 if [ $1 -gt 0 ]; then
   echo "$1 is positive"
   # Check the value less than zero then print negative
