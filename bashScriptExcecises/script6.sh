@@ -7,7 +7,7 @@ fi
 # checks if that is file or not
 if test -f $1
 then
-        echo "$1 normal file. Not a directory"
+        echo "$1 normal file.Not a directory"
 fi
 # file exists
 if test -e $1
