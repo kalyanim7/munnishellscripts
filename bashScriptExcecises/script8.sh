@@ -1,5 +1,5 @@
 #!/bin/sh
-# check for inout value is number
+# check for input value is number
 if [ $# -eq 0 ]
 then
 echo "Error - Number missing form command line argument"
