@@ -1,7 +1,9 @@
 #!/bin/bash
+# check if string is empty
 if [ -z $1 ]
 then
   rental="*** Unknown vehicle ***"
+  # string is non empty
 elif [ -n $1 ]
 then
   rental=$1
