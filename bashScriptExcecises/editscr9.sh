@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z $1 ]
 then
-  rental="*** Unknown vehicle ***"
+  rental="Unknown vehicle"
 elif [ -n $1 ]
 then
   rental=$1
@@ -12,5 +12,6 @@ case $rental in
    "van") echo "VAN";;
    "jeep") echo "JEEP";;
    "bicycle") echo "BIKE";;
+   "Unknown vehicle") echo "Unknown Vehicle";;
    *) echo "None of the option I know of";;
 esac
